@@ -3,14 +3,18 @@
   <head>
     <meta charset="utf-8">
     <title>asteroids</title>
-    <script type="text/javascript" src="scrips.js"> </script>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script type="text/javascript" src="lib/class.js"> </script>
+    <script type="text/javascript" src="lib/canvas.js"> </script>
+    <script type="text/javascript" src="lib/main.js"> </script>
   </head>
   <body>
     <div class="game-container">
       <h1>Asteroids</h1>
-      <canvas id="canvas">
-      </canvas>
+      <script>
+        const game = new Game();
+        game.run();
+      </script>
     </div>
   </body>
 </html>
