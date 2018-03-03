@@ -11,3 +11,15 @@ canvas {
 body {
   background: black;
 }
+
+.fa-linkedin {
+  font-size: 60px;
+  color: white;
+  padding: 10px;
+}
+
+.fa-github {
+  font-size: 60px;
+  color: white;
+  padding: 10px;
+}
