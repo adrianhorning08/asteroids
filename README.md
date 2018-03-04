@@ -11,7 +11,8 @@ Recreation of the classic arcade game using vanilla JavaScript, HTML and Canvas.
 * Different levels with increasing number of asteroids at each level
 
 ## Implementation
-* Everything (except bullets) are polygons, drawn with Canvas
+* Everything is drawn with Canvas
+* The shapes all inherit from a Polygon class
 * Implemented Ray Casting algorithm for collision detection
 * Designed with Object Oriented Programming principles
 * Used triginomic functions to calculate velocity and rotation for ship and asteroids
